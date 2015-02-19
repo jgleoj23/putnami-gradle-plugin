@@ -231,6 +231,12 @@ putnami{
 		/** Emit extra information allow chrome dev tools to display Java identifiers in many placesinstead of JavaScript functions. (NONE, ONLY_METHOD_NAME, ABBREVIATED, FULL) **/
 		methodNameDisplayMode = "NONE"
 		
+		/** shown all compile errors **/
+		strict = false
+		
+		/** disable this internal server **/
+		noServer = false
+		
 		/**
 		* Java args
 		*/
